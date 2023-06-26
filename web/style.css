@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+} 
+body {  
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+ 
+  
+#reg-container{        
+	width: 30%;
+	margin-top: 100px;
+}
+
+#reg-container1{        
+	width: 30%;
+	margin-top: 50px;
+}
+
+
+.contain p{
+	display: inline
+}
+
+
+.tabs .indicator {
+    background-color:#80cbc4;
+}
+
+
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  
+p{
+	font-family: 'Lora', serif;
+
+}
+
+.c-row {
+  display: flex;
+}
+
+.c-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-card {
+  flex: 1;
+}
+
+
+
+ @media screen and (max-width: 768px) {
+  .c-row {
+    display: block;
+  }
+ }
+ 
+ 
+ #toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 20%;
+  left:14%;  
+}
+
+
+.submitbtn{
+    background-color: #FFFFFF !important;
+    color: #2148C0 !important;
+    width: 50% !important;
+    
+}
+
+.signlog{
+    background-color: #FF5C00 !important;
+}
+
+.nav1{
+    background-color: #000000 !important;
+}
+
+
+i{
+    color: #FFFFFF !important; 
+}
+
+.search{
+   color: #999999 !important;  
+}
+
+
+
+i.active {
+    color: #FFFFFF !important;
+}
+
+label.active {
+    color: #FFFFFF !important;
+}
+
+li.active {
+    color: #42a5f5 !important;
+}
+
+
+.input-field input[type=text] {
+    text-align: center !important; 
+    border: 1px solid #FFFFFF !important;
+    border-radius: 5px 5px;
+    color: white !important;
+}
+
+.input-field input[type=password] {
+    text-align: center !important; 
+    border: 1px solid #FFFFFF !important;
+    border-radius: 5px 5px;
+    color: white !important;
+}
+
+.input-field input[type=email] {
+    text-align: center !important; 
+    border: 1px solid #FFFFFF !important;
+    border-radius: 5px 5px;
+    color: white !important;
+}
+
+
+#search:focus{
+   text-align: center !important; 
+    border-radius: 20px;
+    border: 1px solid #F8F8F8;
+    background-color: #F8F8F8;
+    color: black !important;
+}
+
+#search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999999 !important;
+  opacity: 1; /* Firefox */
+  font-size: 1.25em;
+  font-style: normal;
+}
+
+
+#search:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: transparent !important;
+  
+}
+
+/*nav.nav-center ul {
+    text-align: center !important;
+}
+nav.nav-center ul li {
+    display: inline !important;
+    float: none !important;
+}
+nav.nav-center ul li a {
+    display: inline-block !important;
+}*/
