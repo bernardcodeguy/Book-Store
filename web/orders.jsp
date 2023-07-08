@@ -419,14 +419,12 @@
 <!-- Modal for Order Details-->
 	  <div id="modal" class="modal modal-fixed-footer" style="width: 60%; background-color: #FF5C00; border-radius: 2%;">                
 	    <div class="modal-content" >
-	      <h4 class="center-align white-text">Details of Order</h4>
+	     
 	      
               <div class="row white-text" id="content" style="margin-top: 30px;">
                     
 	      	</div>
 	      
 	    </div>
-              <div class="modal-footer" style="background-color: #391500;">
-	      <a href="#" class="modal-close waves-effect waves-light btn-flat red white-text">Close</a>
-	    </div>
+             
 	  </div>
